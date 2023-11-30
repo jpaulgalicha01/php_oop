@@ -1,0 +1,59 @@
+body{
+    width: auto;
+    height: 100vh;
+    background-color: white;
+}
+.container{
+    /* display: block; */
+    color: #6e707e;
+    margin: auto;
+    max-width: 980px;
+    background-color: aquamarine;
+    height: 100vh;
+    padding: 20px
+   
+}
+form{
+    display: block;
+    margin-top: 0rem;
+}
+.control{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.3s;
+    outline: none;
+}
+
+input[type=text]:focus {
+  border: 1px solid #555;
+}
+input[type=password]:focus {
+  border: 1px solid #555;
+}
+
+.showpass{
+    padding-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    padding: 9px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all .2s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: forestgreen;
+     transition: all .2s ease-in-out; 
+}
